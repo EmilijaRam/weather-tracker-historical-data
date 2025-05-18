@@ -1,2 +1,20 @@
+# Python cache
 __pycache__/
 *.pyc
+
+# Virtual environment (ако користиш)
+venv/
+env/
+
+# Локални IDE/редактер фајлови и папки
+.vscode/
+.idea/
+
+# Лични податоци и конфигурации
+.env
+
+# Excel и други генерирани/резултатни фајлови (опционално)
+Weather_Skopje_2023-01-01_to_2025-05-18.xlsx
+
+# Лог фајлови
+*.log
