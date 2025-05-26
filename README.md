@@ -1,31 +1,60 @@
-# Weather Tracker - Historical and Forecast Data 📊🌤️
+# 🌦️ Weather Tracker – Historical & Forecast Data
 
-Оваа Python скрипта автоматски собира историски и прогностички временски податоци за избран град (во случајов: Скопје) од Open-Meteo API, ги снима во Excel и визуелизира температурни трендови.
+Python script that automatically collects and visualizes weather data for a selected city (e.g., Skopje) using the Open-Meteo API. The data is saved in Excel and analyzed through charts.
+--------------
 
-## ✨ Функционалности
-- Преземање на дневни податоци (максимална, минимална температура и врнежи) за последниве неколку години.
-- Прогноза за наредните 16 дена.
-- Снимање на податоците во Excel со различни sheets.
-- Визуелизација со matplotlib.
-- Споредба по датуми за различни години.
-- Автоматско бојадисување на редови по година.
+## ✨ Features
+✅ Download of historical daily data (max/min temperature, precipitation)
 
-## 📦 Зависности
-Пред да ја стартувате скриптата, инсталирајте ги потребните библиотеки:
+🔮 Forecast for the next 16 days
 
-```bash
-pip install requests pandas matplotlib openpyxl
-▶️ Како се користи?
-Подеси ги параметрите city_name, latitude, longitude и start_date во скриптата.
+📊 Saving data into Excel with multiple sheets
 
-Стартувај ја Python скриптата:
+📈 Visualization of temperature trends using matplotlib
 
-bash
-Copy
-Edit
-python ime_na_skriptata.py
-Ќе се генерира Excel фајл со име Weather_Skopje_...xlsx и ќе се појави график.
+📅 Comparison of data by years
 
-👩‍💻 Автор
-Овој проект е изработен од Emilija Ramova
-GitHub: EmilijaRam
+🎨 Automatic coloring of rows by year
+----------------
+
+
+## 🛠️ Technologies
+
+- Python 3.x
+
+- Open-Meteo API
+
+- pandas, matplotlib, openpyxl
+----------------    
+
+## 🚀 Installation
+
+git clone https://github.com/EmilijaRam/weather-tracker-historical-data.git
+cd weather-tracker-historical-data
+pip install -r requirements.txt
+----------------
+
+## ▶️ Usage
+
+python weather_tracker.py
+
+📸 Example Output
+
+🔥 Temperature Visualization (Historical)
+![Temperature visualization](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/Graficki%20prikaz.png)
+
+📅 Daily Temperatures 2023–2025
+![Daily temperature 2023-2025](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/DnevnaT.png)
+
+🔮 16-Day Forecast
+![Forecast](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/Forecast.png)
+
+📊 Yearly Comparison – Min Temperature
+![CompareTmin](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/CompareTmin.png)
+
+📈 Yearly Comparison – Max Temperature
+![CompareTmax](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/CompareTmax.png)
+
+🌧️ Yearly Comparison – Rainfall
+![CompareRain](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/CompareRain.png)
+
