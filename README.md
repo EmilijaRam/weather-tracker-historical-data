@@ -57,4 +57,8 @@ python weather_tracker.py
 
 🌧️ Yearly Comparison – Rainfall
 ![CompareRain](https://github.com/EmilijaRam/weather-tracker-historical-data/blob/main/CompareRain.png)
+---------
+
+## 📄License
+
 
